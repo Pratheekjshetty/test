@@ -4,8 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="style.css" rel="stylesheet"/>
+    <style>
+        body{
+            background-color:rgb(182, 182, 254);
+        }  
+    </style>
 </head>
 <body>
-    
+    <h1>Hello All</h1>
+    <p>Welcome to my YouTube Channel</p>
+    <h2><span class="test">Accelerlab </span><span id="test2">Solutions</span></h2>
+    <a href="https://www.w3schools.com/" target="_blank"><img src="Assets\pexels-souvenirpixels-417074.jpg" alt="Nature" width="50%" height="50%"/></a><br>
+    <a href="mailto:pratheekjshetty6696@gmail.com">Send an email</a><br>
+    <h2>Iframe-Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BHACKCNDMW8?si=wmDY0z1levXO8xKX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+    <h2>Iframe-GoogleMap</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.509171429442!2d74.99315607484311!3d13.066884387257332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4aaec8b8e8b7f%3A0x2a0a3346cfd3372f!2sAccelerlab%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1716873808124!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+    <div>
+    <h2>Table</h2>
+    <table style="width:10%" border="5%">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Pratheek</td>
+            <td>Shetty</td>
+            <td>21</td>
+        </tr>
+    </table>
+    <h2>Colspan</h2>
+    <table style="width:10%" border="10%">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Pratheek</td>
+            <td>Shetty</td>
+            <td>21</td>
+        </tr>
+    </table>
+    <h2>Rowspan</h2>
+    <table style="width:10%" border="10%">
+        <tr>
+            <th >Name</th>
+            <td>Pratheek</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>9480984886</td>
+        </tr>
+        <tr>
+            <td>8310013575</td>
+        </tr>
+    </table>
+    </div>
+    <h2>Unordered List</h2>
+    <ul type="square">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <h2>Ordered List</h2>
+    <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <h2>Form</h2>
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input placeholder="First Name" type="text" id="fname" name="fname" value="Pratheek"/><br>
+        <label for="lname">Last Name:</label><br>
+        <input placeholder="Last Name" type="text" id="lname" name="lname" value="Shetty"/><br>
+        <label for="db">Date of Birth:</label><br>
+        <input type="date" id="db" name="db"/><br>
+        <button type="submit">Submit</button><button type="reset">Reset</button>
+    </form>
 </body>
 </html>
